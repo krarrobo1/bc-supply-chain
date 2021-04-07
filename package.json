@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.0.0"
+  },
+  "scripts": {
+    "migrate":"truffle migrate"
+  }
+}
