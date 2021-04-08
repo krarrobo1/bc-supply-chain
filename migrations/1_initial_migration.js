@@ -1,6 +1,5 @@
-const ItemManager = artifacts.require("ItemManager");
+var Migrations = artifacts.require("./Migrations.sol");
 
-module.exports = function (deployer, network, accounts) {
-  const userAddress = accounts[0];
-  deployer.deploy(ItemManager, userAddress);
+module.exports = function(deployer) {
+  deployer.deploy(Migrations);
 };
